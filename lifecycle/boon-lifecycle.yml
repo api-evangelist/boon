@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.goboon.co
+status_page: https://status.goboon.co
+status_page_provider: Hyperping
+monitored_components:
+- User portal
+- Admin portal
+- API server
+- Job board
+versioning:
+  scheme: unknown
+  note: no public versioning or deprecation policy documented; no public OpenAPI
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+  observed_90d:
+    api_server: 100.000%
+    user_portal: 99.882%
+    admin_portal: 99.887%
+    job_board: 99.799%
+deprecated_operations: []

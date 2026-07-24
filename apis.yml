@@ -1,8 +1,28 @@
 aid: boon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boon.png
 name: Boon
-description: Boon is a company surfaced as a portfolio company of 500-global, redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Boon is an agile referral hiring platform that helps organizations source talent
+  through employee, vendor, customer, and external referral networks. Using AI-driven
+  semantic matching and proactive referral requests, Boon surfaces hidden candidates,
+  manages reward and gamification programs, and syncs with existing HR/ATS tech stacks
+  (Workday, Greenhouse, Lever, iCIMS, Ashby, JazzHR, Slack, Teams, and 50+ others).
+  Founded in 2014 and backed by 500 Global and Redpoint Ventures, Boon markets faster
+  time-to-hire and lower cost-per-hire through community-driven recruiting. This
+  profile was seeded from VC portfolio data and enriched by the API Evangelist pipeline;
+  Boon exposes a private integration API (api.goboon.co) but publishes no public
+  OpenAPI or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/boon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Human Resources
+- Recruiting
+- Hiring
+- Referrals
+- Talent Acquisition
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://goboon.co
+- type: Blog
+  url: https://www.goboon.co/blog
+- type: Login
+  url: https://www.goboon.co/login
+- type: Support
+  url: mailto:support@goboon.co
+- type: TermsOfService
+  url: https://www.goboon.co/terms
+- type: PrivacyPolicy
+  url: https://www.goboon.co/privacy
+- type: StatusPage
+  url: https://status.goboon.co
+- type: Compliance
+  url: https://www.goboon.co/security
+- type: Conformance
+  url: conformance/boon-conformance.yml
+- type: TrustCenter
+  url: security/boon-trust-center.yml
+- type: DomainSecurity
+  url: security/boon-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/boon-lifecycle.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
